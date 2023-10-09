@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 58px;
+    background-color: rgba(137, 35, 221, 0.727);
+    font-family: 'Crimson Text', serif;
+    color: white;
+}
+nav{
+    display: flex;
+    width: 58px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    outline-width: medium;
+}
+.logo img{
+    width: 82px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+nav ul li{
+    list-style: none;
+    color:rgb(244, 244, 250);
+    list-style: none;
+    padding: 0 20px;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: greenyellow;
+    font-weight: bolder;
+}
+.search{
+    
+    align-items: center;
+    display: flex;
+
+}
+ .search input{
+    width: 288px;
+    height: 25px;
+    /* border-radius:5px; */
+    margin:0 510px 0 56px;
+
+}
+.btn{
+    height: 33px;
+    width: 85px;
+}
+.items{
+    
+    width: 70vw;
+    
+    margin: 12px auto;
+}
+.card{
+    width: 90vh;
+}
+.card-items{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column ;
+    margin: 0 15px;
+    
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+ 
+
+footer{
+    background-color: blue;
+    color: aliceblue;
+    height:12vh;
+    font-family: 'Crimson Text', serif;
+}
+
+
+
